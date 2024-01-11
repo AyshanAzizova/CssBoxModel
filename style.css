@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 64px;
+    padding: 8px 0px;
+}
+.navLeft {
+    display: inline-block;
+    margin-left: 100px;
+}
+.navLeft a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.navRight {
+    display: inline;
+    margin-left: 1080px;
+}
+.navRight button {
+    border-radius: 8%;
+    border-width: 0;
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+/* Section1 */
+.firstSection {
+    width: 100%;
+    height: 620px;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.firstSection .firstSectionContent {
+    padding: 150px 68px 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.firstSection .firstSectionContent h1 {
+    font-size: 48px;
+    color: white;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.firstSection .firstSectionContent .email {
+    padding: 20px 220px 20px 18px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.firstSection .firstSectionContent .button {
+    color: white;
+    font-size: 20px;
+    background-color: #0d6efd;
+    border-radius: 9px;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+/* Section 2 */
+.icons-items {
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 110px
+}
+.icons-items .item {
+    margin-left: 169px;
+    width: 19%;
+    display: inline-block;
+}
+.icons-items .item div {
+    width: 100%;
+}
+.icons-items .item div .icon {
+    font-size: 70px;
+    margin-left: 98px;
+    color: #0d6efd;
+}
+.icons-items .item div .icon3 {
+    font-size: 34px;
+    padding: 5px 10px 26px;
+    border: 6px solid #0d6efd;
+    border-radius: 8px;
+}
+.icons-items .item h3 {
+    margin: 16px 0 14px 12px;
+    font-size: 30px;
+}
+.icons-items .item p {
+    font-size: 20px;
+    color: #212529;
+    margin-left: 10px;
+}
+/* Section3 */
+.info-box{
+    width: 100%;
+}
+.info-box .cont{
+    display: inline;
+}
+.info-box .cont img{
+    width: 49%;
+}
+.info-box .cont .content{
+ 
+  display: inline-block;
+  width: 47%;
+  height: 30rem;
+    background-color: brown;
+}
+.info-box .cont .content h2{
+display: inline;
+}
+.info-box div {
+    width: 50%;
+    display: inline;
+
+}
+.info-box div img{
+    display: inline;
+    width: 100%;
+
+}
+.info-box div{
+    display: inline-block;
+}
+
+/* Section4(people) */
+.people{
+    background-color:#F8F9FA;
+}
+.people .person-items{
+    width: 100%;
+    padding-left: 130px;
+}
+.people h2{
+    font-size: 32px;
+    padding: 80px 0 50px 550px;
+}
+.people .person-items .person{
+    width: 23%;
+    margin-left: 100px;
+    display: inline-block;
+}
+.people .person h5{
+    font-size:20px ;
+    padding: 15px 0px 15px 40px;
+}
+.people .person p{
+    font-size: 18px;
+    padding-right: 40px;
+    color: #212529;
+}
+
+.people .person-items .person .personImage img{
+    width: 190px;
+    border: 1px solid none;
+    border-radius: 50%;
+}
+/* SignUp section(last section) */
+.SignUp {
+    width: 100%;
+    height: 350px;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 100px;
+}
+.SignUp .SignUpContent {
+    padding: 90px 68px 0px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.SignUp .SignUpContent h1 {
+    font-size: 36px;
+    color: white;
+    padding: 30px;
+}
+.SignUp .SignUpContent .email {
+    padding: 20px 220px 20px 18px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.SignUp .SignUpContent .button {
+    color: white;
+    font-size: 20px;
+    background-color: #0d6efd;
+    border-radius: 9px;
+    border: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+}
+.footer .footerLeft{
+    width: 50%;
+    display: inline;
+}
+.footer .footerLeft ul{
+    display: inline;
+}
+.footer .footerRight{
+    width: 50%;
+    display: inline;
+}
